@@ -1,0 +1,3 @@
+dataUrl: "http://127.0.0.1:8081"
+resourceUrl: "http://127.0.0.1:8079"
+prefixToDataUrl: "device"

@@ -1,0 +1,17 @@
+{
+  "name": "cra-noise-proxy",
+  "version": "1.0.0",
+  "description": "Proxy pro aplikaci hlukovych cidel pro CRa",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js", 
+    "prod_start": "npm install --production && npm start" 
+  },
+  "author": "OKsystem a.s.",
+  "license": "GNU GPL",
+  "dependencies": {
+    "redbird": "0.6.5",
+    "fs": "0.0.1-security",
+    "js-yaml": "3.6.1"
+  }
+}
