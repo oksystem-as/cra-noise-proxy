@@ -19,6 +19,6 @@ run:
       - |
         pwd
         ls -l
-        tar -czvf package/cra-noise-proxy.tar.gz source
+        tar --exclude='.git' -czvf package/cra-noise-proxy.tar.gz source
         ls -l package
         tar -tvf package/cra-noise-proxy.tar.gz
