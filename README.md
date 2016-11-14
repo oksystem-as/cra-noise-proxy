@@ -6,8 +6,8 @@ Proxy služba pro rozdělění volání mezi "resource" serever a data server.
 Konfigurace je uložena v `config.yaml`.
 Nastavuje se zde:  
 
-`dataUrl` url pro přístup k datov0mu serveru.  
-`resourceUrl` url pro přístup resource serveru.
+`dataUrl` url pro přístup k datov0mu serveru.   
+`resourceUrl` url pro přístup resource serveru. 
 `prefixToDataUrl` url prefix, který určuje jaký request půjde na `dataUrl`.
 
 ## Předpoklady pro spuštění
